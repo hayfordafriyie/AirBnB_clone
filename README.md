@@ -1,2 +1,55 @@
-jjjhgvujvfijhvkufkuyfuyf[?1049h[?1h=[1;49r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[49;1H"readme file" [New File][2;1H[1m[34m~                                                                             [3;1H~                                                                             [4;1H~                                                                             [5;1H~                                                                             [6;1H~                                                                             [7;1H~                                                                             [8;1H~                                                                             [9;1H~                                                                             [10;1H~                                                                             [11;1H~                                                                             [12;1H~                                                                             [13;1H~                                                                             [14;1H~                                                                             [15;1H~                                                                             [16;1H~                                                                             [17;1H~                                                                             [18;1H~                                                                             [19;1H~                                                                             [20;1H~                                                                             [21;1H~                                                                             [22;1H~                                                                             [23;1H~                                                                             [24;1H~                                                                             [25;1H~                                                                             [26;1H~                                                                             [27;1H~                                                                             [28;1H~                                                                             [29;1H~                                                                             [30;1H~                                                                             [31;1H~                                                                             [32;1H~                                                                             [33;1H~                                                                             [34;1H~                                                                             [35;1H~                                                                             [36;1H~                                                                             [37;1H~                                                                             [38;1H~                                                                             [39;1H~                                                                             [40;1H~                                                                             [41;1H~                                                                             [42;1H~                                                                             [43;1H~                                                                             [44;1H~                                                                             [45;1H~                                                                             [46;1H~                                                                             [47;1H~                                                                             [48;1H~                                                                             [m[49;61H0,0-1[9CAll[1;1H[?12l[?25h[?25l[49;1H[1m[37m[41mE78: Unknown mark[m[49;18H[K[49;61H0,0-1[9CAll[1;1H[?12l[?25h[?25l[49;1H[K[49;1H/[?12l[?25h":.,[?25l[31msearch hit BOTTOM, continuing at TOP[m[1m[37m[41mE486: Pattern not found: ":.,[m[49;30H[K[49;61H0,0-1[9CAll[1;1H[?12l[?25h
-# AirBnB_clone
+# Synopsis
+
+The Airbnb clone project for which we are creating a copy of the [Airbnb](https://www.airbnb.com/).
+Only some features will be implemented and will be listed below once completed.
+
+
+## Features
+
+### Command Interpreter
+
+#### Description
+
+The Command Interpreter is used to manage the whole application's functionality from the command line, such as:
++ Crete a new object.
++ Retrieve an object from a file, database, etc.
++ Execute operation on objects. e.g. Count, compute statistics, etc.
++ Update object's attributes.
++ Destroy an object.
+
+#### Usage
+
+To launch the console application in interactive mode simply run:
+
+```console.py ```
+
+or to use the non-interactive mode run:
+
+```echo "your-command-goes-here" | ./console.py ```
+
+#### Commands
+
+Commands | Description | Usage
+-------- | ----------- |-------- |
+**help** or **?**| Displays the documented commands. | **help**
+**quit**     | Exits the program. | **quit**
+**EOF**      | Ends the program. Used when files are passed into the program. | N/A
+**create**  | Creates a new instance of the \<class_name\>. Creates a Json file with the object representation. and prints the id of created object. | **create** \<class_name\>
+**show**    | Prints the string representation of an instance based on the class name and id. | **show** \<class_name class_id\>
+**destroy** | Deletes and instance base on the class name and id. | **destroy** \<class_name class_id\>
+**all** | Prints all string representation of all instances based or not on the class name | **all** or **all** \<class_name class_id\>
+**update** | Updates an instance based on the class name and id by adding or updating attribute | **update** \<class_name class_id key value\>
+
+## Tests
+
+If you wish to run at the test for this application all of the test are located
+under the **test/** folder and can execute all of them by simply running:
+
+```python3 -m unittest discover tests ```
+
+from the root directory.
+
+
+## Bugs
+
++ No known bugs at this time.
